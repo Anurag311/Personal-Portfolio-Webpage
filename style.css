@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Cinzel', 'serif' ;
+}
+#navbar ul { 
+    list-style-type: none;
+  background-color:#0096ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar li { 
+    float: right;
+}
+#navbar li a {
+  display: block;
+  color: white;
+  font-size:1.3rem;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar li a:hover{
+    color:#0096ff;
+    background-color:white;
+}
+#back-img{
+    background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1991&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}  
+.wel-title{
+  font-size:3rem;
+  text-align:center;
+  color: white;
+}  
+.wel-back{
+margin:18rem;
+padding:3rem;
+background-color:rgb(91, 189, 255);
+text-align:center;
+opacity: 0.7;
+} 
+.img{
+  width:70%;
+  border-radius:1rem;
+}
+#projects{
+  text-align:center;
+  width:100%;
+  padding:3rem 0rem;
+  background-image:url('https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+.myprojects{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:1rem;
+  background-color:rgb(91 189 255 / 26%);
+  margin:5rem;
+  padding:1rem;
+  border-radius:9rem;
+}
+.title{
+  font-family: 'Monoton', cursive;
+  font-size:5rem;
+  color:#0096ff;
+  text-decoration:underline;
+  padding-bottom:2rem;
+  padding-top:4.5rem;
+}
+.pro1 a,.pro2 a,.pro3 a{
+  text-decoration:none;
+  color:white;
+  background-color:#0096ff;
+}
+.pro1 a p,.pro2 a p,.pro3 a p{
+  background-color:#0096ff;
+  margin-left:3.9rem;
+  margin-right:3.9rem;
+  border-radius:0rem  0rem 4rem 4rem;
+}
+.myprojects b{
+  color:transparent;
+}
+.myprojects :hover b{
+  color:white;
+}
+.pro1:hover{
+  transform:scale(1.2);
+  overflow:hidden;
+}
+.pro2:hover{
+  transform:scale(1.2);
+  overflow:hidden;
+}
+.pro3:hover{
+  transform:scale(1.2);
+  overflow:hidden;
+}
+@media (max-width:1024px){
+  .wel-title{
+    font-size:3rem;
+  }  
+  .wel-back{
+  margin:15rem 15rem 15rem 20rem;
+  } 
+  .img{
+    width:48%;
+    border-radius:0.5rem;
+  }
+  .myprojects{
+    margin:5rem 5rem 5rem 10rem;
+  }
+  .title{
+    color:#e80707;
+    padding-bottom:1rem;
+    padding-left:7rem;
+  }
+}
