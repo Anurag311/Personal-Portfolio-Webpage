@@ -103,7 +103,7 @@ opacity: 0.7;
   transform:scale(1.2);
   overflow:hidden;
 }
-@media (max-width:360px){
+@media (max-width:720px){
 #navbar li { 
     float: left;
 }  
